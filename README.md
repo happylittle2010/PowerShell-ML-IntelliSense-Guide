@@ -113,7 +113,7 @@ After the configuration is completed, save the configuration file and reload (or
 Install-Module posh-git -Scope CurrentUser -Force
 ```
 After installation, add the following content to the PowerShell configuration file:
-```
+```ps1
 # Import intelligent prompt modules
 Import-Module posh-git
 ```
